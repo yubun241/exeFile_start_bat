@@ -4,10 +4,15 @@ exeファイルを起動するためのバッチファイルのつくり方
 
 ## コード
 @echo off
+
 set EXE_PATH=　# pathを入れて下さい
 
+
 echo 実行中: %EXE_PATH%
+
 start "" %EXE_PATH%
+
+※添付ファイル参考
 
 
 ## 手順
